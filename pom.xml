@@ -21,7 +21,7 @@
 		To generate a new version replace url() in css with Unified-EL like #{resource['file...']}
 	</description>
 	<url>https://github.com/kusnier/font-awesome-for-jsf</url>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 
 	<licenses>
 		<license>
@@ -75,7 +75,7 @@
 		<connection>scm:git:ssh://git@github.com/kusnier/font-awesome-for-jsf.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/kusnier/font-awesome-for-jsf.git</developerConnection>
 		<url>https://github.com/kusnier/font-awesome-for-jsf</url>
-		<tag>release-0.0.3</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<distributionManagement>
