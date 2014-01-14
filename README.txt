@@ -1,3 +1,8 @@
+Add this to your base.xhtml
+
+<h:outputStylesheet library="awesome/css" name="font-awesome.css" />
+
+
 To use the files you must define some mime types.
 Add this to your web.xml
 
