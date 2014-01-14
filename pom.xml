@@ -47,29 +47,6 @@
 
 	<build>
 		<finalName>${project.artifactId}</finalName>
-	</build>
-
-	<scm>
-		<connection>scm:git:ssh://git@github.com/kusnier/font-awesome-for-jsf.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/kusnier/font-awesome-for-jsf.git</developerConnection>
-		<url>https://github.com/kusnier/font-awesome-for-jsf</url>
-		<tag>HEAD</tag>
-	</scm>
-
-	<distributionManagement>
-		<repository>
-			<id>libs releases</id>
-			<name>libs-release</name>
-			<url>http://hq.kusnier.net/artifactory/libs-release-local</url>
-		</repository>
-		<snapshotRepository>
-			<id>libs snapshots</id>
-			<name>libs-snapshot</name>
-			<url>http://hq.kusnier.net/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
-	</distributionManagement>
-
-	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -93,6 +70,26 @@
 				</dependencies>
 			</plugin>
 		</plugins>
-
 	</build>
+
+	<scm>
+		<connection>scm:git:ssh://git@github.com/kusnier/font-awesome-for-jsf.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/kusnier/font-awesome-for-jsf.git</developerConnection>
+		<url>https://github.com/kusnier/font-awesome-for-jsf</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>libs releases</id>
+			<name>libs-release</name>
+			<url>http://hq.kusnier.net/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>libs snapshots</id>
+			<name>libs-snapshot</name>
+			<url>http://hq.kusnier.net/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>
