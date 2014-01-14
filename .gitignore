@@ -4,3 +4,6 @@
 *.jar
 *.war
 *.ear
+
+.idea/
+font-awesome-for-jsf.iml
