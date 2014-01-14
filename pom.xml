@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- TODO Add this to maven repo
+		https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide
+
+		<parent>
+			<groupId>org.sonatype.oss</groupId>
+			<artifactId>oss-parent</artifactId>
+			<version>7</version>
+		</parent>
+	-->
+
+	<groupId>net.kusnier</groupId>
+	<artifactId>font-awesome-for-jsf</artifactId>
+	<packaging>jar</packaging>
+	<name>Font-Awesome for JSF / Primefaces / etc.</name>
+	<description>
+		This files are prepared for JSF / Primefaces.
+		To generate a new version replace url() in css with Unified-EL like #{resource['file...']}
+	</description>
+	<url>https://github.com/kusnier/font-awesome-for-jsf</url>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<licenses>
+		<license>
+			<name>The MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>kuse</id>
+			<name>Sebastian Kusnier</name>
+			<email>sebastian@kusnier.net</email>
+			<url>http://kusnier.net</url>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<finalName>${project.artifactId}</finalName>
+	</build>
+
+	<scm>
+		<connection>scm:git:ssh://git@github.com/kusnier/font-awesome-for-jsf.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/kusnier/font-awesome-for-jsf.git</developerConnection>
+		<url>https://github.com/kusnier/font-awesome-for-jsf</url>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>libs releases</id>
+			<name>libs-release</name>
+			<url>http://hq.kusnier.net/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>libs snapshots</id>
+			<name>libs-snapshot</name>
+			<url>http://hq.kusnier.net/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+</project>
